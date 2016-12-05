@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Basic" />
+        <activity android:name=".Scieng" />
+        <activity android:name=".Calculate"></activity>
     </application>
 
 </manifest>
