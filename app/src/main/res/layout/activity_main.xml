@@ -9,22 +9,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rtc.suranya.patcharee.convertertools.MainActivity">
+    tools:context="rtc.suranya.patcharee.convertertools.MainActivity"
+    android:background="@drawable/wallraper">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/basic"
         android:id="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/sci"
         android:id="@+id/imageView2"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="40dp" />
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginTop="85dp" />
 </RelativeLayout>

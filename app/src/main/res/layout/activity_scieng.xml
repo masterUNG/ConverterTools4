@@ -9,26 +9,56 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rtc.suranya.patcharee.convertertools.Basic">
+    tools:context="rtc.suranya.patcharee.convertertools.Basic"
+    android:background="@drawable/wallraper">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="TextView" />
+        android:text=" science"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="36sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_below="@+id/textView"
         android:orientation="horizontal"
-        android:id="@+id/topsci">
+        android:layout_below="@+id/topsci"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo6" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:id="@+id/topsci"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="161dp"
-            android:layout_height="113dp"
+            android:layout_width="163dp"
+            android:layout_height="111dp"
             app:srcCompat="@drawable/logo4"
             android:layout_marginRight="15dp" />
 
@@ -41,30 +71,6 @@
 
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_below="@+id/topsci"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/logo6" />
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-
-    </LinearLayout>
-
-
 
 
 </RelativeLayout>
