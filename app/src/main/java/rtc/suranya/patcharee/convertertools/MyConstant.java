@@ -13,12 +13,13 @@ public class MyConstant {
 
     public String[] getCategoryStrings() {
 
-        categoryStrings = new String[5];
-        categoryStrings[0] = "";
-        categoryStrings[1] = "";
-        categoryStrings[2] = "";
-        categoryStrings[3] = "";
-        categoryStrings[4] = "";
+        categoryStrings = new String[6];
+        categoryStrings[0] = "Length";
+        categoryStrings[1] = "Weigh";
+        categoryStrings[2] = "Temperature";
+        categoryStrings[3] = "Time";
+        categoryStrings[4] = "Area";
+        categoryStrings[5] = "Measure";
 
         return categoryStrings;
     }
