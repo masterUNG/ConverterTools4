@@ -25,11 +25,11 @@
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Name"
                 android:ems="10"
                 android:id="@+id/editText"
-                android:layout_weight="1.5" />
+                android:layout_weight="1.5"
+                android:hint="Value"
+                android:inputType="numberDecimal" />
 
             <Spinner
                 android:layout_width="0dp"
@@ -64,5 +64,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true" android:onClick="clickCalculate" />
 </RelativeLayout>
