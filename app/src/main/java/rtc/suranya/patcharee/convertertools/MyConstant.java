@@ -16,10 +16,9 @@ public class MyConstant {
         categoryStrings = new String[6];
         categoryStrings[0] = "Length";
         categoryStrings[1] = "Weigh";
-        categoryStrings[2] = "Temperature";
-        categoryStrings[3] = "Time";
-        categoryStrings[4] = "Area";
-        categoryStrings[5] = "Measure";
+        categoryStrings[2] = "Area";
+        categoryStrings[3] = "Temperature";
+        categoryStrings[4] = "Measure";
 
         return categoryStrings;
     }
