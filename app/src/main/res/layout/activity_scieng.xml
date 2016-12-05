@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_scieng"
     android:layout_width="match_parent"
@@ -26,15 +27,17 @@
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_width="161dp"
+            android:layout_height="113dp"
+            app:srcCompat="@drawable/logo4"
+            android:layout_marginRight="15dp" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            app:srcCompat="@drawable/logo5"
+            android:layout_marginLeft="15dp" />
 
 
     </LinearLayout>
@@ -49,7 +52,8 @@
             android:id="@+id/imageView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo6" />
 
         <ImageView
             android:id="@+id/imageView10"
