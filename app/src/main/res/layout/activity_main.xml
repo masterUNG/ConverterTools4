@@ -19,7 +19,7 @@
         android:id="@+id/imageView"
         android:layout_marginTop="115dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" android:onClick="clickBasic" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -29,5 +29,5 @@
         android:layout_below="@+id/imageView"
         android:layout_alignRight="@+id/imageView"
         android:layout_alignEnd="@+id/imageView"
-        android:layout_marginTop="85dp" />
+        android:layout_marginTop="85dp" android:onClick="clickScieng" />
 </RelativeLayout>
